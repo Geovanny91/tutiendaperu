@@ -1,0 +1,6 @@
+<?php 
+	
+	DEFINE('PROJECT_ROOT', '/tutiendaperu/');
+	DEFINE('SERVER_ROOT', $_SERVER['DOCUMENT_ROOT'].PROJECT_ROOT);
+
+ ?>

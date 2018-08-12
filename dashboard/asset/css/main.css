@@ -1,0 +1,45 @@
+body{
+  margin:0;
+  left:0;
+  border-radius: 5px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+.btn{
+  border: none;
+  border-radius: 5px;
+  padding:10px;  
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+}
+.btn:active {
+  outline: none;
+  border: none;
+}
+.btn:focus {
+  outline:0;
+}
+.btn:hover{
+  opacity: 0.8;
+}
+.primary{  
+  background-color: #3498db;
+  color: #fff;
+}
+.danger{
+  background-color: #900603;
+  color: #fff;
+}
+.success{
+  background-color: #36802D;
+  color: #fff;
+}
+.warning{
+  background-color: #FFD800;
+  color: #333;
+}
+.hidden{
+  display: none;
+}
